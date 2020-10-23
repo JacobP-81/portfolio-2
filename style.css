@@ -1,0 +1,74 @@
+body{
+    background-color: lightcyan;
+}
+/* this is the main header and i just wanted it to stand out from the background*/
+h1{
+	color:rgb(53, 91, 148);
+	font-size:100px;
+	font-family: cursive;
+	text-align: center;
+}
+/* wanted all my paragraphs to look a bit different from their headers*/
+p{
+	color:rgb(53,91,148);
+	font-size: 40px;
+	text-align: center;
+	font-family: cursive;
+}
+
+.wrapper {
+	width: 500px;
+	margin: auto;
+}
+
+h2{
+	color:rgb(53,91,148);
+	font-family: cursive;
+	font-size: 60px;
+	text-align: center;
+}
+p{
+	color:rgb(53,91,148);
+	font-size:30px;
+	font-family: monospace;
+	text-align: center;
+}
+hr{
+	color:darkolivegreen;
+	height:5px;
+	background-color: darkolivegreen;
+}
+h3{
+	color:rgb(53,91,148);
+	font-family: cursive;
+	font-size:45px;
+	text-align: center;
+}
+/*this was to make the bullet points next to the links in the contact area */
+ul {
+	text-align: center;
+	list-style-position: inside;
+    
+}
+ol{
+	color:darkolivegreen;
+	font-size:40px;
+	font-family: cursive;
+	text-align: left;
+}
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+iframe {
+	border: 0;
+	margin-left:0;
+	height:500px;
+	width: 500px;
+  }
